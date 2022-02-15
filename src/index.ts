@@ -39,10 +39,12 @@ export function useRemark(
     [JSON.stringify(options)]
   );
 
-  const tree = useMemo(
-    () => remarkProcessor.processSync(content).result,
+  const vfile = useMemo(
+    () => remarkProcessor.processSync(content),
     [remarkProcessor, content]
   );
 
-  return [tree, setContent] as const;
+  const tree = vfile.result;
+
+  return [tree, setContent, vfile] as const;
 }

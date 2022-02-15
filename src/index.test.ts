@@ -36,7 +36,12 @@ describe("Remark Hook for Atomico", () => {
       `)
       );
 
-      expect(remarkResult).toMatchSnapshot();
+      expect(remarkResult).toHaveLength(3);
+      expect(remarkResult[0]).toMatchSnapshot();
+      expect(remarkResult[1]).toMatchSnapshot();
+      expect(remarkResult[2]).toMatchSnapshot({
+        cwd: expect.any(String),
+      });
 
       expect(document.documentElement).toMatchSnapshot();
 
