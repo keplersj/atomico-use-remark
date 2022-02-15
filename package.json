@@ -1,0 +1,108 @@
+{
+  "name": "atomico-use-remark",
+  "version": "0.0.0-development",
+  "description": "Atomico hook for interacting with Remark",
+  "type": "module",
+  "source": "src/index.ts",
+  "module": "./dist/atomico-use-remark.js",
+  "unpkg": "./dist/atomico-use-remark.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/atomico-use-remark.js",
+    "default": "./dist/atomico-use-remark.js"
+  },
+  "scripts": {
+    "clean": "rimraf coverage/ dist/",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepack": "npm run clean && npm run build",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/atomico-use-remark.git"
+  },
+  "keywords": [
+    "atomico",
+    "webcomponents",
+    "customelements",
+    "web",
+    "markdown",
+    "remark",
+    "unified",
+    "unified-collective",
+    "rehype",
+    "vdom"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "funding": {
+    "type": "github-sponsors",
+    "url": "https://github.com/sponsors/keplersj"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keplersj/atomico-use-remark/issues"
+  },
+  "homepage": "https://github.com/keplersj/atomico-use-remark#readme",
+  "dependencies": {
+    "hast-to-hyperscript": "^10.0.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "unified": "^10.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@types/jest": "^27.4.0",
+    "atomico": "^1.45.1",
+    "eslint": "^8.9.0",
+    "eslint-config-starstuff": "^1.5.9",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "microbundle": "^0.14.2",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "atomico": "^1.45.1"
+  },
+  "eslintConfig": {
+    "extends": "starstuff/auto",
+    "env": {
+      "browser": true
+    }
+  },
+  "jest": {
+    "preset": "ts-jest/presets/default-esm",
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1"
+    },
+    "testEnvironment": "jsdom",
+    "collectCoverage": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  }
+}

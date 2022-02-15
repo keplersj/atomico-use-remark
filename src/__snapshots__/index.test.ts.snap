@@ -1,0 +1,474 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Remark Hook for Atomico hook, tree from initial content returns a result object when run 1`] = `
+Array [
+  Object {
+    "$$": Symbol(Atomico.$$),
+    "children": Array [
+      Array [
+        Object {
+          "$$": Symbol(Atomico.$$),
+          "children": Array [
+            Array [
+              "Test Content",
+            ],
+          ],
+          "clone": undefined,
+          "is": undefined,
+          "key": undefined,
+          "props": Object {},
+          "raw": false,
+          "shadow": undefined,
+          "static": undefined,
+          "type": "h1",
+        },
+        "
+",
+        Object {
+          "$$": Symbol(Atomico.$$),
+          "children": Array [
+            Array [
+              Object {
+                "$$": Symbol(Atomico.$$),
+                "children": Array [
+                  Array [
+                    "This",
+                  ],
+                ],
+                "clone": undefined,
+                "is": undefined,
+                "key": undefined,
+                "props": Object {},
+                "raw": false,
+                "shadow": undefined,
+                "static": undefined,
+                "type": "em",
+              },
+              " is ",
+              Object {
+                "$$": Symbol(Atomico.$$),
+                "children": Array [
+                  Array [
+                    "test content",
+                  ],
+                ],
+                "clone": undefined,
+                "is": undefined,
+                "key": undefined,
+                "props": Object {},
+                "raw": false,
+                "shadow": undefined,
+                "static": undefined,
+                "type": "strong",
+              },
+              " for ",
+              Object {
+                "$$": Symbol(Atomico.$$),
+                "children": Array [
+                  Array [
+                    Object {
+                      "$$": Symbol(Atomico.$$),
+                      "children": Array [
+                        Array [
+                          "the",
+                        ],
+                      ],
+                      "clone": undefined,
+                      "is": undefined,
+                      "key": undefined,
+                      "props": Object {},
+                      "raw": false,
+                      "shadow": undefined,
+                      "static": undefined,
+                      "type": "strong",
+                    },
+                  ],
+                ],
+                "clone": undefined,
+                "is": undefined,
+                "key": undefined,
+                "props": Object {},
+                "raw": false,
+                "shadow": undefined,
+                "static": undefined,
+                "type": "em",
+              },
+              " ",
+              Object {
+                "$$": Symbol(Atomico.$$),
+                "children": Array [
+                  Array [
+                    "remark",
+                  ],
+                ],
+                "clone": undefined,
+                "is": undefined,
+                "key": undefined,
+                "props": Object {},
+                "raw": false,
+                "shadow": undefined,
+                "static": undefined,
+                "type": "code",
+              },
+              " hook for ",
+              Object {
+                "$$": Symbol(Atomico.$$),
+                "children": Array [
+                  Array [
+                    "atomico",
+                  ],
+                ],
+                "clone": undefined,
+                "is": undefined,
+                "key": undefined,
+                "props": Object {},
+                "raw": false,
+                "shadow": undefined,
+                "static": undefined,
+                "type": "code",
+              },
+              ".",
+            ],
+          ],
+          "clone": undefined,
+          "is": undefined,
+          "key": undefined,
+          "props": Object {},
+          "raw": false,
+          "shadow": undefined,
+          "static": undefined,
+          "type": "p",
+        },
+      ],
+    ],
+    "clone": undefined,
+    "is": undefined,
+    "key": undefined,
+    "props": Object {},
+    "raw": false,
+    "shadow": undefined,
+    "static": undefined,
+    "type": "div",
+  },
+  [Function],
+]
+`;
+
+exports[`Remark Hook for Atomico hook, tree from initial content returns a result object when run 2`] = `
+<html>
+  <head />
+  <body>
+    <div />
+  </body>
+</html>
+`;
+
+exports[`Remark Hook for Atomico hook, tree from initial content returns a result object when run 3`] = `
+<html>
+  <head />
+  <body>
+    <div>
+      Mark {}
+      <div>
+        Mark {}
+        <h1>
+          Mark {}
+          Test Content
+          Mark {}
+        </h1>
+        
+
+        <p>
+          Mark {}
+          <em>
+            Mark {}
+            This
+            Mark {}
+          </em>
+           is 
+          <strong>
+            Mark {}
+            test content
+            Mark {}
+          </strong>
+           for 
+          <em>
+            Mark {}
+            <strong>
+              Mark {}
+              the
+              Mark {}
+            </strong>
+            Mark {}
+          </em>
+           
+          <code>
+            Mark {}
+            remark
+            Mark {}
+          </code>
+           hook for 
+          <code>
+            Mark {}
+            atomico
+            Mark {}
+          </code>
+          .
+          Mark {}
+        </p>
+        Mark {}
+      </div>
+      Mark {}
+    </div>
+  </body>
+</html>
+`;
+
+exports[`Remark Hook for Atomico hook, tree from set content returns a result object when run 1`] = `
+Object {
+  "$$": Symbol(Atomico.$$),
+  "children": Array [],
+  "clone": undefined,
+  "is": undefined,
+  "key": undefined,
+  "props": Object {},
+  "raw": false,
+  "shadow": undefined,
+  "static": undefined,
+  "type": "div",
+}
+`;
+
+exports[`Remark Hook for Atomico hook, tree from set content returns a result object when run 2`] = `
+<html>
+  <head />
+  <body>
+    <div />
+  </body>
+</html>
+`;
+
+exports[`Remark Hook for Atomico hook, tree from set content returns a result object when run 3`] = `
+<html>
+  <head />
+  <body>
+    <div>
+      Mark {}
+      <div />
+      Mark {}
+    </div>
+  </body>
+</html>
+`;
+
+exports[`Remark Hook for Atomico hook, tree from set content returns a result object when run 4`] = `
+Object {
+  "$$": Symbol(Atomico.$$),
+  "children": Array [
+    Array [
+      Object {
+        "$$": Symbol(Atomico.$$),
+        "children": Array [
+          Array [
+            "Set Test Content",
+          ],
+        ],
+        "clone": undefined,
+        "is": undefined,
+        "key": undefined,
+        "props": Object {},
+        "raw": false,
+        "shadow": undefined,
+        "static": undefined,
+        "type": "h1",
+      },
+      "
+",
+      Object {
+        "$$": Symbol(Atomico.$$),
+        "children": Array [
+          Array [
+            Object {
+              "$$": Symbol(Atomico.$$),
+              "children": Array [
+                Array [
+                  "This",
+                ],
+              ],
+              "clone": undefined,
+              "is": undefined,
+              "key": undefined,
+              "props": Object {},
+              "raw": false,
+              "shadow": undefined,
+              "static": undefined,
+              "type": "em",
+            },
+            " is ",
+            Object {
+              "$$": Symbol(Atomico.$$),
+              "children": Array [
+                Array [
+                  "set test content",
+                ],
+              ],
+              "clone": undefined,
+              "is": undefined,
+              "key": undefined,
+              "props": Object {},
+              "raw": false,
+              "shadow": undefined,
+              "static": undefined,
+              "type": "strong",
+            },
+            " for ",
+            Object {
+              "$$": Symbol(Atomico.$$),
+              "children": Array [
+                Array [
+                  Object {
+                    "$$": Symbol(Atomico.$$),
+                    "children": Array [
+                      Array [
+                        "the",
+                      ],
+                    ],
+                    "clone": undefined,
+                    "is": undefined,
+                    "key": undefined,
+                    "props": Object {},
+                    "raw": false,
+                    "shadow": undefined,
+                    "static": undefined,
+                    "type": "strong",
+                  },
+                ],
+              ],
+              "clone": undefined,
+              "is": undefined,
+              "key": undefined,
+              "props": Object {},
+              "raw": false,
+              "shadow": undefined,
+              "static": undefined,
+              "type": "em",
+            },
+            " ",
+            Object {
+              "$$": Symbol(Atomico.$$),
+              "children": Array [
+                Array [
+                  "remark",
+                ],
+              ],
+              "clone": undefined,
+              "is": undefined,
+              "key": undefined,
+              "props": Object {},
+              "raw": false,
+              "shadow": undefined,
+              "static": undefined,
+              "type": "code",
+            },
+            " hook for ",
+            Object {
+              "$$": Symbol(Atomico.$$),
+              "children": Array [
+                Array [
+                  "atomico",
+                ],
+              ],
+              "clone": undefined,
+              "is": undefined,
+              "key": undefined,
+              "props": Object {},
+              "raw": false,
+              "shadow": undefined,
+              "static": undefined,
+              "type": "code",
+            },
+            ".",
+          ],
+        ],
+        "clone": undefined,
+        "is": undefined,
+        "key": undefined,
+        "props": Object {},
+        "raw": false,
+        "shadow": undefined,
+        "static": undefined,
+        "type": "p",
+      },
+    ],
+  ],
+  "clone": undefined,
+  "is": undefined,
+  "key": undefined,
+  "props": Object {},
+  "raw": false,
+  "shadow": undefined,
+  "static": undefined,
+  "type": "div",
+}
+`;
+
+exports[`Remark Hook for Atomico hook, tree from set content returns a result object when run 5`] = `
+<html>
+  <head />
+  <body>
+    <div>
+      Mark {}
+      <div>
+        Mark {}
+        <h1>
+          Mark {}
+          Set Test Content
+          Mark {}
+        </h1>
+        
+
+        <p>
+          Mark {}
+          <em>
+            Mark {}
+            This
+            Mark {}
+          </em>
+           is 
+          <strong>
+            Mark {}
+            set test content
+            Mark {}
+          </strong>
+           for 
+          <em>
+            Mark {}
+            <strong>
+              Mark {}
+              the
+              Mark {}
+            </strong>
+            Mark {}
+          </em>
+           
+          <code>
+            Mark {}
+            remark
+            Mark {}
+          </code>
+           hook for 
+          <code>
+            Mark {}
+            atomico
+            Mark {}
+          </code>
+          .
+          Mark {}
+        </p>
+        Mark {}
+      </div>
+      Mark {}
+    </div>
+  </body>
+</html>
+`;
