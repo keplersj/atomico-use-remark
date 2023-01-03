@@ -60,7 +60,7 @@
     "atomico": "1.66.2",
     "eslint": "8.22.0",
     "eslint-config-starstuff": "1.5.12",
-    "husky": "8.0.1",
+    "husky": "8.0.3",
     "jest": "29.3.1",
     "microbundle": "0.15.1",
     "prettier": "2.7.1",
