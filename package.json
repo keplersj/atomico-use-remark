@@ -54,8 +54,8 @@
     "unified": "^10.1.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3",
+    "@commitlint/cli": "17.8.1",
+    "@commitlint/config-conventional": "17.8.1",
     "@types/jest": "29.2.3",
     "atomico": "1.66.2",
     "eslint": "8.22.0",
